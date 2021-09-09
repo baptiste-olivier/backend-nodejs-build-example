@@ -13,10 +13,7 @@
     "build4": "tsc --build tsconfig.json && pkg --compress Brotli package.json",
     "lint": "eslint .",
     "dev": "TS_NODE_FILES=true TS_NODE_TRANSPILE_ONLY=true nodemon --exec ts-node src/index.ts",
-    "start": "node dist/index.js",
-    "start2": "node dist/index.js",
-    "start3": "./bin/backend-example",
-    "start4": "./bin/backend-example"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "Kili Technology",
