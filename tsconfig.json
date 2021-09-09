@@ -1,0 +1,31 @@
+{
+  "baseUrl": "types",
+  "typeRoots": ["types"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "baseUrl": "src/",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "listFiles": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": true,
+    "noLib": false,
+    "outDir": "dist/",
+    "paths": {
+      "*": ["../config/*"]
+    },
+    "pretty": true,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "target": "es2017"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/**/*.spec.ts"]
+}
